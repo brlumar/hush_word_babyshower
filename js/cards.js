@@ -288,7 +288,7 @@ const cardData = [
         ]
     },
     {
-        guessWord: 'baby first steps',
+        guessWord: 'first steps',
         tabooWords: [
             { buzzword: 'walk' },
             { buzzword: 'toddler' },
