@@ -1,0 +1,100 @@
+/* .team-label{
+    width: 6rem;
+    height: 6rem;
+} */
+
+body {
+    background-image: url(Images/il_fullxfull.3924170953_mbnn.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.navbar-no-collapse .navbar-collapse {
+    flex-basis: auto;
+}
+
+.marks {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 6rem;
+    height: 6rem;
+
+}
+
+
+
+
+.score-board {
+
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+
+}
+
+.time-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+
+
+}
+
+.team {
+
+    display: flex;
+    justify-content: center;
+    background-color: #adbca5;
+
+}
+
+
+
+#playarea {
+    display: none;
+    justify-content: center;
+
+    /* display: none; */
+
+
+}
+
+#card-modal {
+    /* background-color: #db4c4c; */
+    display: flex;
+    justify-content: center;
+
+    /* display: none; */
+}
+
+/* WordList styling */
+
+.wordlist-card {
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#howTo {
+    display: none;
+}
+
+
+.word-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#wordlistContainer {
+    display: none;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <title>Hush Word Baby Shower Edition</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md">
+
+        <div class="container-xxl">
+            <a href="#play-area" class="navbar-brand">
+                <span class="fw-bold text-secondary">
+                    Hush Word
+                </span>
+            </a>
+            <!-- toggle button for mobile nav -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- nave bar links -->
+            <div class="collape navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="howToBtn" href="#howTo">How To Play</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="wordListBtn" href="#wordlistContainer">Word List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">High Scores</a>
+                    </li>
+                    <!-- <li class="nav-item d-md-none">
+                        <a class="nav-link" href="#start">start</a>
+                    </li> -->
+                    <!-- <li class="nav-item ms-2  d-md-inline">
+                        <a class="btn btn-secondary" id="start-btn" href="#start">Start</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="whole">
+        <div class="modal-header">
+            <section class="container-md my-5" id="top-of-container">
+                <!-- <li class="nav-item ms-2  d-md-inline"> -->
+                <!-- </li> -->
+                <!-- <a href="./scores.html" id="high-scores">Vew High Scores</a> -->
+                <div class="time-container display-3">
+                    <a class="btn btn-secondary shadow" id="start-btn" href="#start">Start</a>
+                    <!-- <h4>Timer: </h4> -->
+                    <div class="display-1" id="time">0</div>
+
+                </div>
+
+                <div class=".container-xxl score-board">
+                    <div class="card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 12rem;">
+                        <h3 class="display-5">Team 1</h3>
+                        <!-- <img src="Images/Team !.png" class="card-img-top team-label" alt="team one score image"> -->
+                        <div class="team card-body">
+                            <!-- <div class="toggle-label" for="toggle-switch">Team 1</div> -->
+                            <h4 class="team-one-score display-3 card-title">0</h4>
+                        </div>
+                    </div>
+
+                    <div class="team card shadow p-3 mb-5 bg-body-tertiary rounded" style="width: 12rem;">
+                        <h3 class="display-5">Team 2</h3>
+                        <!-- <img src="Images/Team ! (1).png" class="card-img-top team-label" alt="team two score image"> -->
+                        <div class="team card-body">
+                            <!-- <div class="toggle-label" for="toggle-switch">Team 2</div> -->
+                            <h4 class="team-two-score display-3 card-title">0</h4>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+        </div>
+
+
+
+        <div class="play-area" id="playarea">
+            <!-- <div class="start-btn">
+                <button class="gobtn" id="team-one-button">Team 1 Go!</button>
+                <button class="gobtn" id="team-two-button">Team 2 Go!</button>
+            </div> -->
+            <section class="card-section .container-md shadow p-3 mb-5 bg-body-tertiary rounded" id="card-modal">
+                <img src="Images/incorrect-294245_1280.png" alt="x for unsuccessful guesses"
+                    class="xmark marks .img-fluid rounded float-start" id="xmark" />
+
+                <div class="card text-bg-info mb-3 game-card" style="width: 8rem;">
+
+                    <div class="guess-this card-header">Guess Word</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="buzzword1 list-group-item">Don't</li>
+                        <li class="buzzword2 list-group-item">say</li>
+                        <li class="buzzword3 list-group-item">these</li>
+                        <li class="buzzword4 list-group-item">words.</li>
+                    </ul>
+                </div>
+
+                <img src="Images/check-40319_1280.png" alt="check mark for successful guesses"
+                    class="checkmark marks .img-fluid rounded float-end" id="checkmark" />
+            </section>
+        </div>
+
+    </div>
+
+    <div class="card text-bg-dark" id="howTo">
+        <button class="btn btn-secondary shadow" id="hide-how-to">Back To Game</button>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/how to play-green/Slide1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/how to play-green/Slide2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/how to play-green/Slide3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/how to play-green/Slide4.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Images/how to play-green/Slide5.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div id="wordlistContainer">
+        <h3>Let's see what you got:</h3>
+        <!-- <button class="btn btn-secondary shadow" id="hide-wordlist">Hide WordList</button> -->
+
+        <div class="word-list" id="word-list">
+
+            <div class="card shadow" style="width: 18rem;">
+                <div class="card-header">
+                    Team 1
+                </div>
+                <ul class="list-group list-group-flush" id="">
+                    <div id="answer-buttons" class="btn-container"></div>
+
+                    <!-- <li class="list-group-item text-decoration-line-through fw-lighter">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li> -->
+                </ul>
+            </div>
+            <div class="card shadow" style="width: 18rem;">
+                <div class="card-header">
+                    Team 2
+                </div>
+                <ul class="list-group list-group-flush">
+                    <div id="answer-buttons2" class="btn-container"></div>
+
+                    <!-- <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li> -->
+                </ul>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <audio id="buzzer">
+        <source src="./audio/buzzerwav-14908.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="timer-running">
+        <source src="./audio/ouch-116112.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="correct">
+        <source src="./audio/new-information-153314.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="end-turn">
+        <source src="./audio/fail-jingle-stereo-mix-88784.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="aww">
+        <source src="./audio/awwwww-37944.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="js/cards.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+<!-- <div class="card text-bg-dark" id="howTo">
+        <img src="Images/backdrop-874452_1920.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <button class="btn btn-secondary shadow" id="hide-how-to">Back To Game</button>
+
+            <h5 class="card-title">How to Play Hush Word:</h5>
+            <p class="card-text">
+                Objective: </p>
+
+            <p class="card-text"> Word is a word-guessing game where players need to guess a word without using specific
+                taboo words associated with it. Players take turns to guess words, and teams earn points for each
+                correct guess.</p>
+
+            <p class="card-text">Setting Up the Game:</p>
+            <p class="card-text">
+                Gather Players: Assemble two or more players into teams. Each team will take turns guessing words.</p>
+
+            <p class="card-text">Prepare the Game Materials:</p>
+
+            <p class="card-text">You need a device with a modern web browser to load the game interface.
+                Ensure your device has speakers or headphones for the audio cues in the game.
+                Starting the Game:
+                Access the Game: Open the web browser on your device and navigate to the Hush Word game website.</p>
+
+            <p class="card-text">Navigate the Menu:</p>
+
+            <p class="card-text">Explore the menu options on the top navigation bar, such as "How To Play," "Word List,"
+                and "High Scores" to familiarize yourself with the game rules and available features.</p>
+            <p class="card-text">Start the Game:
+
+                Click on the "Start" button to begin the game. This initiates the game timer and displays the first word
+                for your team to guess.</p>
+            Gameplay:</p>
+
+            <p class="card-text">Guessing a Word:</p>
+
+            Look at the main game card displayed on the screen. This card contains the word your team needs to guess
+            (labeled as "Guess Word").
+            Avoid using the words listed below the main word (labeled as "Buzzwords"). These words are taboo and should
+            not be used in your clues.</p>
+            <p class="card-text">Turn Timer:
+
+                Each team has a limited time (usually 60 seconds) to guess the word.
+                The remaining time is displayed prominently on the screen.
+                If your team guesses the word correctly within the time limit, click the checkmark icon to earn a point.
+            </p>
+            <p class="card-text">Taboo Words:
+
+                If a player uses any of the taboo words during their explanation, the turn ends immediately, and the
+                other team gains a point. Avoid these words!</p>
+            <p class="card-text">Passing a Word:
+
+                If your team is struggling to guess the word, you can click the X icon to pass the word. The turn ends,
+                and the other team gains a point.</p>
+            <p class="card-text">Scoring:
+
+                Each correct guess earns your team a point.
+                The game keeps track of the scores for both teams, which are displayed on the screen.</p>
+            <p class="card-text">Team Turns:
+
+                The game alternates between teams after each turn. Pay attention to whose turn it is displayed on the
+                screen.
+                Winning the Game:
+                Game Duration: The game can be played for a set number of rounds or a specific duration. Teams take
+                turns until the predetermined end point.</p>
+
+            <p class="card-text"></p>Determining the Winner:
+
+            At the end of the game, the team with the most points wins.
+            Celebrate your victory and consider playing again to challenge yourselves further!
+            Enjoy playing Hush Word and have fun guessing words while avoiding the tricky taboo words!</p>
+            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+    </div> -->

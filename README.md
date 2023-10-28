@@ -1,2 +1,2 @@
-# hush_word_babyshower
-Version of my Hush Word game made for baby showers
+# hush_word
+The beginning code is copied from my "you_cant_say_that" repository to practice using bootstrap. 
